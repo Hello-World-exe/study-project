@@ -8,7 +8,7 @@ import com.main.board.apps.test.dtos.TestDto.VariableRequest;
 public class TestService {
 
     /*
-     * [API Service]x+y 반환
+     * [API Service]x+y 반환ss
      */
     public Integer getTestResponse(VariableRequest variableRequest){
         return sum(variableRequest.getX(),variableRequest.getY());
